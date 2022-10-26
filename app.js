@@ -32,7 +32,7 @@ mongoose.connect(process.env.CONNECTION_STRING, () => {
     console.log('Conected to database');
 })
 
-//listen to the port
+//listen to the port 3000 loacal host or listen to the heroku sever
 app.listen(process.env.PORT || 3000, ()=>{
     console.log('Listen to the port 3000');
 })
