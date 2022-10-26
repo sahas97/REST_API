@@ -21,7 +21,7 @@ const postSchema = mongoose.Schema({
     },
     date : {
         type: String,
-        default: formattedToday.toString,
+        default: formattedToday,
     }
 })
 
