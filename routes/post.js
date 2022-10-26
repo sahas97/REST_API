@@ -6,8 +6,8 @@ const Post = require('../model/post')
 
 router.post("/", async (req, res) => {
     const post = new Post({
-        title: req.body.title,
-        description: req.body.description,
+        name: req.body.name,
+        age: req.body.description,
     })
 
     try {

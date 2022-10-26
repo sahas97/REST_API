@@ -1,11 +1,11 @@
 const mongoose = require("mongoose")
 
 const postSchema = mongoose.Schema({
-    title: {
+    name: {
         type:String,
         required: true,
     },
-    description: {
+    age: {
         type:String,
         required: true,
     },

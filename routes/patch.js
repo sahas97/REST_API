@@ -8,8 +8,8 @@ router.patch("/:postId", async (req, res) => {
             { _id: req.params.postId },
             {
                 $set: {
-                    title: req.body.title,
-                    description: req.body.description,
+                    name: req.body.name,
+                    age: req.body.description,
                 }
             }
         );
